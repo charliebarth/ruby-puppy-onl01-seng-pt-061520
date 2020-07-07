@@ -1,11 +1,11 @@
 # Add your code here
-class Puppy
+class Dog
   @@all = []
  
   attr_accessor :name
  
-  def initialize(dog)
-    @dog = dog
+  def initialize(name)
+    @name = name
     @@all << self
   end
  
